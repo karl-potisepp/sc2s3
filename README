@@ -1,0 +1,10 @@
+Soundcloud to Amazon S3 importer
+
+Requirements (Python packages):
+  * soundcloud (https://github.com/soundcloud/soundcloud-python)
+  * boto (http://aws.amazon.com/sdkforpython/)
+  * Tkinter (ActiveTcl Community Edition from http://www.activestate.com/activetcl)
+
+Before running the utility, prepare the Boto configuration file by
+substituting the AWS access key ID and AWS secret access key variables
+in the ".boto_example" file with your own credentials and rename the file to ".boto".
